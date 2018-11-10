@@ -135,3 +135,31 @@ services:
             - "29015"
         ports:
             - "28080:8080"
+ 
+ volumes:
+  data-rethinkdb:
+    driver: local
+    
+  data-redis:
+    driver: local
+  
+  data-mysql:
+    driver: local
+    
+  data-postgresql:
+    driver: local
+    
+  data-mongo:
+    driver: local
+    
+  data-nginx:
+    driver: local
+    
+  data-apache:
+    driver: local
+    
+  data-certbot:
+    driver: local
+    
+  data-nodock:
+    driver: local
